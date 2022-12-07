@@ -1,0 +1,24 @@
+modLoader="javafml" 
+loaderVersion="[43,)" 
+license="MIT License"
+[[mods]] 
+modId="revamped"
+version="${file.jarVersion}"
+logoFile="revamped.png"
+credits="Special Thanks to Kaupenjoe for his Tutorial series"
+authors="Albert_1403"
+description='''
+
+'''
+[[dependencies.revamped]] 
+    modId="forge" 
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.revamped]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
